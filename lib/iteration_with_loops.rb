@@ -7,6 +7,6 @@ def find_min_in_nested_arrays(src)
       min_numbers << src[row_index].min 
     row_index += 1 
   end
-  min_numbers.join  
+  min_numbers 
 end 
 
